@@ -1,0 +1,300 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="tram_tram" vClass="tram" color="green">
+        <param key="has.fcd.device" value="true"/>
+    </vType>
+    <route id="tram_1Mui_Route" edges="770429443 7045610#0 770438581 7046455 7046455.81">
+        <stop busStop="3299908038" duration="15" />
+        <stop busStop="237962650" duration="15" />
+        <stop busStop="434507138" duration="15" />
+    </route>
+    <route id="tram_1Mat_Route" edges="770446896#0 770446896#1 759987750#0 324264745 7045616">
+        <stop busStop="3299908041" duration="15" />
+        <stop busStop="3299908040" duration="15" />
+        <stop busStop="2013949519" duration="15" />
+    </route>
+    <route id="tram_3Fle_Route" edges="814779819 458116534 814780776 122385065#0 122385065#1 7045689 458871590 770438581 7046455 7046455.81">
+        <stop busStop="3303180661" duration="15" />
+        <stop busStop="434524953" duration="15" />
+        <stop busStop="434524954" duration="15" />
+        <stop busStop="11405370176" duration="15" />
+        <stop busStop="427562504" duration="15" />
+        <stop busStop="237962650" duration="15" />
+        <stop busStop="434507138" duration="15" />
+    </route>
+    <route id="tram_3Van_Route" edges="770446896#0 770446896#1 759987750#0 324264745 7045675#1 770424007 325023871#1">
+        <stop busStop="3299908041" duration="15" />
+        <stop busStop="3299908040" duration="15" />
+        <stop busStop="2013949519" duration="15" />
+        <stop busStop="bs_0" duration="15" />
+        <stop busStop="3303180666" duration="15" />
+        <stop busStop="3303180663" duration="15" />
+        <stop busStop="286316889" duration="15" />
+    </route>
+    <route id="tram_14Jav_Route" edges="323515435.382 -770426572#0 770426567 770426566#0 7045689 458871590 770438581 770460803#0">
+        <stop busStop="2987217066" duration="15" />
+        <stop busStop="11405370176" duration="15" />
+        <stop busStop="427562504" duration="15" />
+        <stop busStop="237962650" duration="15" />
+        <stop busStop="434507138" duration="15" />
+        <stop busStop="2674521961" duration="15" />
+    </route>
+    <route id="tram_19Die_Route" edges="770468921#0 770460803#0">
+        <stop busStop="434507137" duration="15" />
+        <stop busStop="434507140" duration="15" />
+        <stop busStop="2674521961" duration="15" />
+    </route>
+    <route id="tram_19Slo_Route" edges="770460804 770473078">
+        <stop busStop="2674521954" duration="15" />
+        <stop busStop="2674521970" duration="15" />
+        <stop busStop="2674521976" duration="15" />
+    </route>
+    <flow id="tram_1Mui" type="tram_tram" route="tram_1Mui_Route" line="tram_1Mui" begin="000" end="10800" period="720" />
+    <flow id="tram_1Mat" type="tram_tram" route="tram_1Mat_Route" line="tram_1Mat" begin="200" end="10800" period="720" />
+    <flow id="tram_3Fle" type="tram_tram" route="tram_3Fle_Route" line="tram_3Fle" begin="300" end="10800" period="1200" />
+    <flow id="tram_3Van" type="tram_tram" route="tram_3Van_Route" line="tram_3Van" begin="400" end="10800" period="1200" />
+    <flow id="tram_14Jav" type="tram_tram" route="tram_14Jav_Route" line="tram_14Jav" begin="500" end="10800" period="720" />
+    <flow id="tram_19Die" type="tram_tram" route="tram_19Die_Route" line="tram_19Die" begin="600" end="10800" period="900" />
+    <flow id="tram_19Slo" type="tram_tram" route="tram_19Slo_Route" line="tram_19Slo" begin="100" end="10800" period="900" />
+    <personFlow id="personflow_98" begin="000" end="10800" probability="0.006168330279692217" departPos="57">
+        <ride from="324264745" busStop="286316889" />
+    </personFlow>
+    <personFlow id="personflow_105" begin="000" end="10800" probability="0.01771146686585517" departPos="57">
+        <ride from="324264745" busStop="3303180663" />
+    </personFlow>
+    <personFlow id="personflow_106" begin="000" end="10800" probability="0.010614844287183622" departPos="57">
+        <ride from="324264745" busStop="3303180666" />
+    </personFlow>
+    <personFlow id="personflow_119" begin="000" end="10800" probability="0.013049899702669822" departPos="57">
+        <ride from="324264745" busStop="bs_0" />
+    </personFlow>
+    <personFlow id="personflow_125" begin="000" end="10800" probability="0.018612079058632883" departPos="222">
+        <ride from="770438581" busStop="2674521961" />
+    </personFlow>
+    <personFlow id="personflow_140" begin="000" end="10800" probability="0.005927269866696115" departPos="222">
+        <ride from="770438581" busStop="434507138" />
+    </personFlow>
+    <personFlow id="personflow_156" begin="000" end="10800" probability="0.014889202034672956" departPos="132">
+        <ride from="770460804" busStop="2674521970" />
+    </personFlow>
+    <personFlow id="personflow_157" begin="000" end="10800" probability="0.009652436555278858" departPos="132">
+        <ride from="770460804" busStop="2674521976" />
+    </personFlow>
+    <personFlow id="personflow_217" begin="000" end="10800" probability="0.01403022049098324" departPos="355">
+        <ride from="770460804" busStop="2674521976" />
+    </personFlow>
+    <personFlow id="personflow_301" begin="000" end="10800" probability="0.014494800118538369" departPos="853">
+        <ride from="323515435.382" busStop="11405370176" />
+    </personFlow>
+    <personFlow id="personflow_304" begin="000" end="10800" probability="0.010272038325824052" departPos="853">
+        <ride from="323515435.382" busStop="237962650" />
+    </personFlow>
+    <personFlow id="personflow_306" begin="000" end="10800" probability="0.007377784859701786" departPos="853">
+        <ride from="323515435.382" busStop="2674521961" />
+    </personFlow>
+    <personFlow id="personflow_318" begin="000" end="10800" probability="0.00603052351101702" departPos="853">
+        <ride from="323515435.382" busStop="427562504" />
+    </personFlow>
+    <personFlow id="personflow_320" begin="000" end="10800" probability="0.013934183068698099" departPos="853">
+        <ride from="323515435.382" busStop="434507138" />
+    </personFlow>
+    <personFlow id="personflow_331" begin="000" end="10800" probability="0.019308010138464858" departPos="233">
+        <ride from="7045925#0" busStop="11405370176" />
+    </personFlow>
+    <personFlow id="personflow_354" begin="000" end="10800" probability="0.01844068531035482" departPos="233">
+        <ride from="7045925#0" busStop="4621136511" />
+    </personFlow>
+    <personFlow id="personflow_358" begin="000" end="10800" probability="0.007057441578824714" departPos="233">
+        <ride from="7045925#0" busStop="7191688891" />
+    </personFlow>
+    <personFlow id="personflow_364" begin="000" end="10800" probability="0.0054177228357978795" departPos="39">
+        <ride from="770429443" busStop="237962650" />
+    </personFlow>
+    <personFlow id="personflow_380" begin="000" end="10800" probability="0.010397142515585614" departPos="39">
+        <ride from="770429443" busStop="434507138" />
+    </personFlow>
+    <personFlow id="personflow_393" begin="000" end="10800" probability="0.011948231962578937" departPos="302">
+        <ride from="759987750#0" busStop="2013949519" />
+    </personFlow>
+    <personFlow id="personflow_399" begin="000" end="10800" probability="0.007538295530444545" departPos="302">
+        <ride from="759987750#0" busStop="286316889" />
+    </personFlow>
+    <personFlow id="personflow_405" begin="000" end="10800" probability="0.010743925546741636" departPos="302">
+        <ride from="759987750#0" busStop="3303180663" />
+    </personFlow>
+    <personFlow id="personflow_406" begin="000" end="10800" probability="0.015124538915772933" departPos="302">
+        <ride from="759987750#0" busStop="3303180666" />
+    </personFlow>
+    <personFlow id="personflow_417" begin="000" end="10800" probability="0.009476394722368928" departPos="302">
+        <ride from="759987750#0" busStop="7191688890" />
+    </personFlow>
+    <personFlow id="personflow_419" begin="000" end="10800" probability="0.008815771079316949" departPos="302">
+        <ride from="759987750#0" busStop="bs_0" />
+    </personFlow>
+    <personFlow id="personflow_423" begin="000" end="10800" probability="0.008718053286272218" departPos="51">
+        <ride from="770446896#1" busStop="2013949519" />
+    </personFlow>
+    <personFlow id="personflow_429" begin="000" end="10800" probability="0.014506878549210171" departPos="51">
+        <ride from="770446896#1" busStop="286316889" />
+    </personFlow>
+    <personFlow id="personflow_433" begin="000" end="10800" probability="0.013696031258419079" departPos="51">
+        <ride from="770446896#1" busStop="3299908040" />
+    </personFlow>
+    <personFlow id="personflow_435" begin="000" end="10800" probability="0.016396376545324186" departPos="51">
+        <ride from="770446896#1" busStop="3303180663" />
+    </personFlow>
+    <personFlow id="personflow_436" begin="000" end="10800" probability="0.014601931286043684" departPos="51">
+        <ride from="770446896#1" busStop="3303180666" />
+    </personFlow>
+    <personFlow id="personflow_447" begin="000" end="10800" probability="0.015150316260852403" departPos="51">
+        <ride from="770446896#1" busStop="7191688890" />
+    </personFlow>
+    <personFlow id="personflow_449" begin="000" end="10800" probability="0.019165037135162027" departPos="51">
+        <ride from="770446896#1" busStop="bs_0" />
+    </personFlow>
+    <personFlow id="personflow_451" begin="000" end="10800" probability="0.013475475035844564" departPos="56">
+        <ride from="458116534" busStop="11405370176" />
+    </personFlow>
+    <personFlow id="personflow_454" begin="000" end="10800" probability="0.009395926065493783" departPos="56">
+        <ride from="458116534" busStop="237962650" />
+    </personFlow>
+    <personFlow id="personflow_468" begin="000" end="10800" probability="0.008787187570945789" departPos="56">
+        <ride from="458116534" busStop="427562504" />
+    </personFlow>
+    <personFlow id="personflow_470" begin="000" end="10800" probability="0.011455443993355794" departPos="56">
+        <ride from="458116534" busStop="434507138" />
+    </personFlow>
+    <personFlow id="personflow_472" begin="000" end="10800" probability="0.00654859662911425" departPos="56">
+        <ride from="458116534" busStop="434524953" />
+    </personFlow>
+    <personFlow id="personflow_473" begin="000" end="10800" probability="0.007101216989490547" departPos="56">
+        <ride from="458116534" busStop="434524954" />
+    </personFlow>
+    <personFlow id="personflow_489" begin="000" end="10800" probability="0.015387898275927209" departPos="737">
+        <ride from="770424007" busStop="286316889" />
+    </personFlow>
+    <personFlow id="personflow_519" begin="000" end="10800" probability="0.009687515287394463" departPos="234">
+        <ride from="770424007" busStop="286316889" />
+    </personFlow>
+    <personFlow id="personflow_526" begin="000" end="10800" probability="0.018438027559627115" departPos="234">
+        <ride from="770424007" busStop="3303180663" />
+    </personFlow>
+    <personFlow id="personflow_574" begin="000" end="10800" probability="0.01538985935713013" departPos="80">
+        <ride from="458871590" busStop="237962650" />
+    </personFlow>
+    <personFlow id="personflow_576" begin="000" end="10800" probability="0.015150809349206755" departPos="80">
+        <ride from="458871590" busStop="2674521961" />
+    </personFlow>
+    <personFlow id="personflow_590" begin="000" end="10800" probability="0.012053581357808409" departPos="80">
+        <ride from="458871590" busStop="434507138" />
+    </personFlow>
+    <personFlow id="personflow_606" begin="000" end="10800" probability="0.01741919971997161" departPos="195">
+        <ride from="770468921#0" busStop="2674521961" />
+    </personFlow>
+    <personFlow id="personflow_621" begin="000" end="10800" probability="0.009363398464449781" departPos="195">
+        <ride from="770468921#0" busStop="434507140" />
+    </personFlow>
+    <personFlow id="personflow_636" begin="000" end="10800" probability="0.015949008556754178" departPos="451">
+        <ride from="770438581" busStop="2674521961" />
+    </personFlow>
+    <personFlow id="personflow_666" begin="000" end="10800" probability="0.007200989083851545" departPos="523">
+        <ride from="770468921#0" busStop="2674521961" />
+    </personFlow>
+    <personFlow id="personflow_691" begin="000" end="10800" probability="0.005679689908955184" departPos="73">
+        <ride from="122385065#1" busStop="11405370176" />
+    </personFlow>
+    <personFlow id="personflow_694" begin="000" end="10800" probability="0.010279352469591038" departPos="73">
+        <ride from="122385065#1" busStop="237962650" />
+    </personFlow>
+    <personFlow id="personflow_709" begin="000" end="10800" probability="0.01104950435183353" departPos="73">
+        <ride from="122385065#1" busStop="427562504" />
+    </personFlow>
+    <personFlow id="personflow_711" begin="000" end="10800" probability="0.012731776231099296" departPos="73">
+        <ride from="122385065#1" busStop="434507138" />
+    </personFlow>
+    <personFlow id="personflow_713" begin="000" end="10800" probability="0.0066848575521676196" departPos="73">
+        <ride from="122385065#1" busStop="434524954" />
+    </personFlow>
+    <personFlow id="personflow_718" begin="000" end="10800" probability="0.019968474589504168" departPos="73">
+        <ride from="122385065#1" busStop="7191688891" />
+    </personFlow>
+    <personFlow id="personflow_721" begin="000" end="10800" probability="0.01105107952925737" departPos="496">
+        <ride from="122385065#1" busStop="11405370176" />
+    </personFlow>
+    <personFlow id="personflow_724" begin="000" end="10800" probability="0.006535383788611658" departPos="496">
+        <ride from="122385065#1" busStop="237962650" />
+    </personFlow>
+    <personFlow id="personflow_739" begin="000" end="10800" probability="0.014831725635060498" departPos="496">
+        <ride from="122385065#1" busStop="427562504" />
+    </personFlow>
+    <personFlow id="personflow_741" begin="000" end="10800" probability="0.006738162333506934" departPos="496">
+        <ride from="122385065#1" busStop="434507138" />
+    </personFlow>
+    <personFlow id="personflow_748" begin="000" end="10800" probability="0.007084191338531769" departPos="496">
+        <ride from="122385065#1" busStop="7191688891" />
+    </personFlow>
+    <personFlow id="personflow_780" begin="000" end="10800" probability="0.010679561357239617" departPos="33">
+        <ride from="7045691" busStop="-4622218685" />
+    </personFlow>
+    <personFlow id="personflow_781" begin="000" end="10800" probability="0.008107578622735865" departPos="33">
+        <ride from="7045691" busStop="11405370176" />
+    </personFlow>
+    <personFlow id="personflow_782" begin="000" end="10800" probability="0.00893363836484145" departPos="33">
+        <ride from="7045691" busStop="1614149711" />
+    </personFlow>
+    <personFlow id="personflow_811" begin="000" end="10800" probability="0.006624220486983676" departPos="75">
+        <ride from="7045925#0" busStop="11405370176" />
+    </personFlow>
+    <personFlow id="personflow_821" begin="000" end="10800" probability="0.013847147446772137" departPos="75">
+        <ride from="7045925#0" busStop="3011895790" />
+    </personFlow>
+    <personFlow id="personflow_835" begin="000" end="10800" probability="0.007133001935858764" departPos="75">
+        <ride from="7045925#0" busStop="4621136511" />
+    </personFlow>
+    <personFlow id="personflow_838" begin="000" end="10800" probability="0.012765104977409358" departPos="75">
+        <ride from="7045925#0" busStop="7191688891" />
+    </personFlow>
+    <personFlow id="personflow_840" begin="000" end="10800" probability="0.007526867634603902" departPos="72">
+        <ride from="195649386#1" busStop="-4622218685" />
+    </personFlow>
+    <personFlow id="personflow_842" begin="000" end="10800" probability="0.005366785382423895" departPos="72">
+        <ride from="195649386#1" busStop="1614149711" />
+    </personFlow>
+    <personFlow id="personflow_856" begin="000" end="10800" probability="0.01694579248390671" departPos="72">
+        <ride from="195649386#1" busStop="3303180663" />
+    </personFlow>
+    <personFlow id="personflow_857" begin="000" end="10800" probability="0.01777975767257722" departPos="72">
+        <ride from="195649386#1" busStop="3303180666" />
+    </personFlow>
+    <personFlow id="personflow_865" begin="000" end="10800" probability="0.005081413442950062" departPos="72">
+        <ride from="195649386#1" busStop="4621136511" />
+    </personFlow>
+    <personFlow id="personflow_869" begin="000" end="10800" probability="0.006367164185081526" departPos="72">
+        <ride from="195649386#1" busStop="bs_0" />
+    </personFlow>
+    <personFlow id="personflow_874" begin="000" end="10800" probability="0.01122349490781378" departPos="75">
+        <ride from="614449799#2.379" busStop="237962650" />
+    </personFlow>
+    <personFlow id="personflow_891" begin="000" end="10800" probability="0.015954072295618182" departPos="75">
+        <ride from="614449799#2.379" busStop="434507138" />
+    </personFlow>
+    <personFlow id="personflow_900" begin="000" end="10800" probability="0.008745007959640835" departPos="333">
+        <ride from="7045675#1" busStop="-4622218685" />
+    </personFlow>
+    <personFlow id="personflow_902" begin="000" end="10800" probability="0.012145286578710205" departPos="333">
+        <ride from="7045675#1" busStop="1614149711" />
+    </personFlow>
+    <personFlow id="personflow_909" begin="000" end="10800" probability="0.01174867852921492" departPos="333">
+        <ride from="7045675#1" busStop="286316889" />
+    </personFlow>
+    <personFlow id="personflow_916" begin="000" end="10800" probability="0.017478596197645982" departPos="333">
+        <ride from="7045675#1" busStop="3303180663" />
+    </personFlow>
+    <personFlow id="personflow_917" begin="000" end="10800" probability="0.012235371504907043" departPos="333">
+        <ride from="7045675#1" busStop="3303180666" />
+    </personFlow>
+    <personFlow id="personflow_925" begin="000" end="10800" probability="0.00812373841625138" departPos="333">
+        <ride from="7045675#1" busStop="4621136511" />
+    </personFlow>
+
+
+</routes>

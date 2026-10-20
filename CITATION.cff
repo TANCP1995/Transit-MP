@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the Transit-MP paper."
+title: "Transit-MP reproducibility package"
+type: software
+license: GPL-3.0-only
+authors:
+  - family-names: Tan
+    given-names: Chaopeng
+  - family-names: Liu
+    given-names: Hao
+  - family-names: Sun
+    given-names: Dingshan
+  - family-names: Rinaldi
+    given-names: Marco
+  - family-names: van Lint
+    given-names: Hans
+preferred-citation:
+  type: article
+  title: "Transit-MP: Transit-prioritized max-pressure control in sparse connected vehicle environments"
+  authors:
+    - family-names: Tan
+      given-names: Chaopeng
+    - family-names: Liu
+      given-names: Hao
+    - family-names: Sun
+      given-names: Dingshan
+    - family-names: Rinaldi
+      given-names: Marco
+    - family-names: van Lint
+      given-names: Hans
+  journal: "Transportation Research Part B: Methodological"
+  volume: 215
+  year: 2027
+  doi: "10.1016/j.trb.2026.103622"
